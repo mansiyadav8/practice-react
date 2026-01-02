@@ -10,7 +10,7 @@
  * 
  * ReactElement("Object") => HTML(Browserstands)
  * 
- * This is react to avoid this hassel we use JSX
+ * This is react to avoid this hassel we use JSX.
  */
 
 
