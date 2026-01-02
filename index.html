@@ -6,16 +6,22 @@
     <title>Hello World!</title>
 </head>
 <body>
-    <div id="root"></div>
+    <div id="header">Header above React</div>
+    <div id="root">
+        Hello World this is Mansi!
+    </div>
+    <div id="javascript"></div>
     <script>
+        <!---- Hello World using Javascript -->
         const heading = document.createElement("h1");
-        heading.innerHTML = ("Hello World this is Mansi")
+        heading.innerHTML = ("Hello World from Javascript")
 
-        const root = document.getElementById("root");
-        root.appendChild(heading);
+        const javascript = document.getElementById("javascript");
+        javascript.appendChild(heading);
     </script>
 
     <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
     <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+    <script src="./App.js"></script>
 </body>
 </html>
