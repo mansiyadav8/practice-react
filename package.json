@@ -1,0 +1,26 @@
+{
+  "name": "y",
+  "version": "1.0.0",
+  "description": "\"This is Mansi Yadav deep diving in React\"",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mansiyadav8/practice-react.git"
+  },
+  "author": "Mansi Yadav",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mansiyadav8/practice-react/issues"
+  },
+  "homepage": "https://github.com/mansiyadav8/practice-react#readme",
+  "devDependencies": {
+    "parcel": "^2.16.3"
+  },
+  "dependencies": {
+    "react": "^19.2.3",
+    "react-dom": "^19.2.3"
+  },
+  "browserlist":["last 2 versions"]
+}
